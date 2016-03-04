@@ -5,6 +5,7 @@ angular.module('mgo-angular-wizard').directive('wzStep', function() {
         transclude: true,
         scope: {
             wzTitle: '@',
+            shouldShowWarning: '=',
             canenter : '=',
             canexit : '=',
             disabled: '@?wzDisabled',
